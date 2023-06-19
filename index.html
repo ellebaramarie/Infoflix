@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="images/I-logo.png" type="image/i-icon">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!------------------------------------------------------------------------------------------------------>
+    <!-- NAVBAR -->
+<div class="nav" id="nav">
+    <img src="images/logo.png" alt="" class="nav__logo">
+    <ul class="navigation">
+        <li><a href="index.html">Home</a></li> 
+        <li><a href="faqs.html">FAQs</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+
+    </ul>
+    <img src="images/profile1.png" alt="" class="nav__profile">
+</div>
+
+<!------------------------------------------------------------------------------------------------------>
+
+    <!-- HEADER -->
+    <div class="banner">
+        <div class="banner__contents">
+            <img src="images/malwares.png" alt="" class="banner__title">
+            <h4>
+                <span>2023</span>
+                <span><i>13+</i></span>
+                <span>1min 22secs</span>
+                <span>Action Sci-Fi</span>
+            </h4>
+            
+            <div class="banner__description">
+                Malware, short for "malicious software". It is any type of software or code specifically designed to cause harm, 
+                damage, or disruption to computer systems, networks, or devices. 
+                <br><br>
+                Malware is typically created by individuals or groups 
+                with malicious intent, such as cybercriminals and hackers. It can take various forms and employ different techniques 
+                to compromise systems and exploit vulnerabilities.
+            </div>
+            <div class="banner__buttons">
+                <button class="button__play" onclick="toggleVideo();"><i class="fa-solid fa-play" aria-hidden="true"></i> Play</button>
+                <button class="button__moreinfo"><i class="fa-solid fa-circle-info" aria-hidden="true"> </i> More info</button>
+            </div>
+        </div>
+        <div class="banner--fadeBottom"> </div>
+    </div>
+
+
+<!------------------------------------------------------------------------------------------------------>
+    <!-- TRAILER -->
+    <div class="trailer">
+        <video src="MOVIES/MALWARES.mp4" controls="true"></video>
+        <img src="images/close.png" class="close" onclick="toggleVideo();">
+    </div>
+    
+<!------------------------------------------------------------------------------------------------------>
+    <!-- TOP 10 CATEGORY --> 
+    <div class="row">
+        <h2>Top 10 in Infoflix Today</h2>
+            <div class="row__posters">
+                <img src="TOP10/1.png" onclick="toggleBots();" alt="bots" class="row__poster  row__posterLarge">
+                <img src="TOP10/2.png" onclick="toggleLostInfrastructure();" alt="lost_infrastructure" class="row__poster  row__posterLarge">
+                <img src="TOP10/3.png" onclick="toggleWorms();" alt="worms" class="row__poster  row__posterLarge">
+                <img src="TOP10/4.png" onclick="toggleFileless();" alt="fileless" class="row__poster  row__posterLarge">
+                <img src="TOP10/5.png" onclick="toggleForceMajeure();" alt="force_majeure" class="row__poster  row__posterLarge">
+                <img src="TOP10/6.png" onclick="toggleKeyloggers();" alt="keyloggers" class="row__poster  row__posterLarge">
+                <img src="TOP10/7.png" onclick="toggleHumanError();" alt="human_error" class="row__poster  row__posterLarge">
+                <img src="TOP10/8.png" onclick="toggleWiperMalware();" alt="wiper_malware" class="row__poster  row__posterLarge">
+                <img src="TOP10/9.png" onclick="togglFraudandTheft();" alt="fraud_and_theft" class="row__poster row__posterLarge">
+                <img src="TOP10/10.png" onclick="toggleTechnicalFailure();" alt="technical_failure" class="row__poster row__posterLarge">
+            </div>
+    </div>
+
+<!------------------------------------------------------------------------------------------------------>    
+   <!-- MALWARES -->
+    <div class="row">
+        <h2>Types of Malwares</h2>
+            <div class="row__posters">
+                <img src="MALWARE/1.jpg" onclick="toggleSpyware();"alt="spyware" class="row__poster">
+                <img src="MALWARE/2.jpg" onclick="toggleTrojans();"alt="trojans" class="row__poster">
+                <img src="MALWARE/3.jpg" onclick="toggleRansomware();" alt="ransomware" class="row__poster">
+                <img src="MALWARE/4.jpg" onclick="toggleAdware();" alt="adware" class="row__poster">
+                <img src="MALWARE/5.jpg" onclick="toggleFileless();" alt="fileless" class="row__poster">
+                <img src="MALWARE/6.jpg" onclick="toggleKeyloggers();" alt="keyloggers" class="row__poster">
+                <img src="MALWARE/7.jpg" onclick="toggleRootkits();" alt="rootkits" class="row__poster">
+                <img src="MALWARE/8.jpg" onclick="toggleWorms();" alt="worms" class="row__poster">
+                <img src="MALWARE/10.jpg" onclick="toggleWiperMalware();" alt="wipermalware" class="row__poster">
+                <img src="MALWARE/11.jpg" onclick="toggleBots();" alt="bots" class="row__poster">
+            </div>
+    </div>
+
+<!------------------------------------------------------------------------------------------------------> 
+  <!-- SPYWARE -->
+    <div class="movie_spyware">
+        <video src="MOVIES/SPYWARE_P.mp4" controls="true"></video>
+        <img src="images/arrow.png" class="back" onclick="toggleSpyware();">
+        
+    </div>
+  <!-- TROJANS -->
+     <div class="movie_trojans">
+    <video src="MOVIES/TROJANS.mp4" controls="true"></video>
+    <img src="images/arrow.png" class="back"  onclick="toggleTrojans();">
+    </div>
+  <!-- RANSOMWARE -->
+  <div class="movie_ransomware">
+    <video src="MOVIES/RANSOMWARE_P.mp4" controls="true"></video>
+    <img src="images/arrow.png" class="back"  onclick="toggleRansomware();">
+  </div>
+   <!-- ADWARE -->
+   <div class="movie_adware">
+    <video src="MOVIES/ADWARE.mp4" controls="true"></video>
+    <img src="images/arrow.png" class="back"  onclick="toggleAdware();">
+  </div>
+  <!-- FILELESS -->
+  <div class="movie_fileless">
+    <video src="MOVIES/FILELESS_P.mp4" controls="true"></video>
+    <img src="images/arrow.png" class="back"  onclick="toggleFileless();">
+  </div>
+  <!-- KEYLOGGERS -->
+   <div class="movie_keyloggers">
+    <video src="MOVIES/KEYLOGGER.mp4" controls="true"></video>
+    <img src="images/arrow.png" class="back"  onclick="toggleKeyloggers();">
+  </div>
+<!-- ROOTKITS -->
+   <div class="movie_rootkits">
+    <video src="MOVIES/ROOTKITS.mp4" controls="true"></video>
+    <img src="images/arrow.png" class="back"  onclick="toggleRootkits();">
+  </div>
+  <!-- WORMS -->
+  <div class="movie_worms">
+    <video src="MOVIES/WORMS.mp4" controls="true"></video>
+    <img src="images/arrow.png" class="back"  onclick="toggleWorms();">
+  </div>
+  <!-- WIPER MALWARE -->
+  <div class="movie_wipermalware">
+    <video src="MOVIES/WIPER_P.mp4" controls="true"></video>
+    <img src="images/arrow.png" class="back"  onclick="toggleWiperMalware();">
+  </div>
+ <!-- BOTS -->
+ <div class="movie_bots">
+    <video src="MOVIES/BOTS_P.mp4" controls="true"></video>
+    <img src="images/arrow.png" class="back"  onclick="toggleBots();">
+  </div>
+
+<!------------------------------------------------------------------------------------------------------>
+
+    <!-- ANOTHER CATEGORY --> 
+    <div class="row">
+        <h2>Different kinds of Threats</h2>
+              <div class="row__posters">
+                    <img src="THREATS/4.png" onclick="toggleDeliberateActs();" alt="deliberate_acts" class="row__poster">
+                    <img src="THREATS/1.png" onclick="toggleLostInfrastructure();" alt="lost_infrastructure" class="row__poster">
+                    <img src="THREATS/2.png" onclick="toggleHumanError();" alt="human_error" class="row__poster">
+                    <img src="THREATS/3.png" onclick="toggleErrorsandNegligence();" alt="errors_and_negligence" class="row__poster">            
+                    <img src="THREATS/5.png" onclick="toggleAttackers();" alt="attackers" class="row__poster">
+                    <img src="THREATS/6.png" onclick="toggleVideo();" alt="malwares" class="row__poster">
+                    <img src="THREATS/7.png" onclick="toggleForceMajeure();" alt="force_majeure" class="row__poster">
+                    <img src="THREATS/8.png" onclick="toggleTechnicalFailure();" alt="technical_failure" class="row__poster">
+                    <img src="THREATS/9.png" onclick="togglFraudandTheft();" alt="fraud_and_ theft" class="row__poster">       
+              </div>
+    </div>
+
+ <!------------------------------------------------------------------------------------------------------>
+    <!-- DELIBERATE ACTS -->
+ <div class="movie_deliberateacts">
+    <video src="MOVIES/DELIBERATE ACTS.mp4" controls="true"></video>
+    <img src="images/arrow.png" class="back"  onclick="toggleDeliberateActs();">
+ </div>
+ <!-- LOST INFRASTRUCTURE -->
+ <div class="movie_lostinfrastructure">
+    <video src="MOVIES/LOSS INFRASTRUCTURE.mp4" controls="true"></video>
+    <img src="images/arrow.png" class="back"  onclick="toggleLostInfrastructure();">
+ </div>
+ <!-- HUMAN ERROR -->
+ <div class="movie_humanerror">
+    <video src="MOVIES/HUMAN ERROR.mp4" controls="true"></video>
+    <img src="images/arrow.png" class="back"  onclick="toggleHumanError();">
+ </div>
+ <!-- ERRORS AND NEGLIGENCE -->
+ <div class="movie_errorsandnegligence">
+    <video src="MOVIES/ERRORS AND NEGLIGENCE_.mp4" controls="true"></video>
+    <img src="images/arrow.png" class="back"  onclick="toggleErrorsandNegligence();">
+ </div>
+ <!-- ATTACKERS -->
+ <div class="movie_attackers">
+    <video src="MOVIES/ATTACKERS.mp4" controls="true"></video>
+    <img src="images/arrow.png" class="back"  onclick="toggleAttackers();">
+ </div>
+<!-- MALWARES -->
+<div class="movie_malwares">
+    <video src="MOVIES/MALWARES.mp4" controls="true"></video>
+    <img src="images/arrow.png" class="back"  onclick="toggleVideo();">
+ </div>
+ <!-- FORCE MAJEURE -->
+ <div class="movie_forcemajeure">
+    <video src="MOVIES/FORCE MAJEURE.mp4" controls="true"></video>
+    <img src="images/arrow.png" class="back"  onclick="toggleForceMajeure();">
+ </div>
+ <!-- TECHNICAL FAILURE -->
+ <div class="movie_technicalfailure">
+    <video src="MOVIES/TECHNICAL FAILURE.mp4" controls="true"></video>
+    <img src="images/arrow.png" class="back"  onclick="toggleTechnicalFailure();">
+ </div>
+<!-- FRAUD AND THEFT -->
+<div class="movie_fraudandtheft">
+    <video src="MOVIES/FRAUDULENT AND THEFT.mp4" controls="true"></video>
+    <img src="images/arrow.png" class="back"  onclick="togglFraudandTheft();">
+ </div>
+
+<!------------------------------------------------------------------------------------------------------>
+
+
+
+<script src="script.js"></script>
+</body>  
+</html> 
