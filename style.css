@@ -10,9 +10,11 @@
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #111;
+
 }
 h2 {
     padding-top: 30px;
@@ -25,25 +27,31 @@ h2 {
     transition: transform 450ms;
     cursor: pointer;
 }
+
 .row__posters {
     display: flex;
     overflow-y: hidden;
     overflow-x: scroll;
     padding: 20px;
 }
+
 .row__poster:hover {
     transform: scale(1.08);
 }
+
 .row__posters::-webkit-scrollbar {
     display: none;
 }
+
 .row__posterLarge {
     max-height: 250px;
 }
+
 .row {
     color: white;
     margin-left: 20px ;
 }
+
 .banner { 
     background-image: url('images/mwbg.png');
     background-size: cover;
@@ -52,12 +60,15 @@ h2 {
     object-fit: contain;
     height: 498px;
 } 
+
 .banner__contents 
 {
     margin-left: 30px;
     padding-top: 140px;
     height: 190px;
 }
+
+
 .banner__title 
 {
     padding-bottom: 0.3rem;
@@ -283,16 +294,6 @@ letter-spacing: 1px;
     filter: invert(2);
     max-width: 35px;
 }
-.close  
-{
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    cursor: pointer;
-    filter: invert(2);
-    max-width: 32px;
-}
-
 
 /* ---------------------------------------------------------------------------------
 /* poster containter trojans */
@@ -330,15 +331,6 @@ letter-spacing: 1px;
     left: 250px;
     filter: invert(2);
     max-width: 35px;
-}
-.close  
-{
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    cursor: pointer;
-    filter: invert(2);
-    max-width: 32px;
 }
 
 /* ---------------------------------------------------------------------------------
@@ -378,17 +370,6 @@ letter-spacing: 1px;
     filter: invert(2);
     max-width: 35px;
 }
-.close  
-{
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    cursor: pointer;
-    filter: invert(2);
-    max-width: 32px;
-}
-
-
 
 /* ---------------------------------------------------------------------------------
 /* poster containter adware */
@@ -427,16 +408,6 @@ letter-spacing: 1px;
     filter: invert(2);
     max-width: 35px;
 }
-.close  
-{
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    cursor: pointer;
-    filter: invert(2);
-    max-width: 32px;
-}
-
 
 /*--------------------------------------------------------------------------------
 /* poster containter fileless */
@@ -475,26 +446,6 @@ letter-spacing: 1px;
     filter: invert(2);
     max-width: 35px;
 }
-.close  
-{
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    cursor: pointer;
-    filter: invert(2);
-    max-width: 32px;
-}
-.close  
-{
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    cursor: pointer;
-    filter: invert(2);
-    max-width: 32px;
-}
-
-
 
 /*--------------------------------------------------------------------------------
 /* poster containter keyloggers */
@@ -534,15 +485,6 @@ letter-spacing: 1px;
     filter: invert(2);
     max-width: 35px;
 }
-.close  
-{
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    cursor: pointer;
-    filter: invert(2);
-    max-width: 32px;
-}
 
 /*--------------------------------------------------------------------------------
 /* poster containter rootkits */
@@ -581,16 +523,6 @@ letter-spacing: 1px;
     filter: invert(2);
     max-width: 35px;
 }
-.close  
-{
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    cursor: pointer;
-    filter: invert(2);
-    max-width: 32px;
-}
-
 
 /*--------------------------------------------------------------------------------
 /* poster containter worms */
@@ -667,16 +599,6 @@ letter-spacing: 1px;
     filter: invert(2);
     max-width: 35px;
 }
-.close  
-{
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    cursor: pointer;
-    filter: invert(2);
-    max-width: 32px;
-}
-
 
 /*--------------------------------------------------------------------------------
 /* poster containter bots */
@@ -714,15 +636,6 @@ letter-spacing: 1px;
     left: 250px;
     filter: invert(2);
     max-width: 35px;
-}
-.close  
-{
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    cursor: pointer;
-    filter: invert(2);
-    max-width: 32px;
 }
 
 
@@ -763,15 +676,6 @@ letter-spacing: 1px;
     filter: invert(2);
     max-width: 35px;
 }
-.close  
-{
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    cursor: pointer;
-    filter: invert(2);
-    max-width: 32px;
-}
 
 /*--------------------------------------------------------------------------------
 /* poster containter lost infrastructure */
@@ -809,15 +713,6 @@ letter-spacing: 1px;
     left: 250px;
     filter: invert(2);
     max-width: 35px;
-}
-.close  
-{
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    cursor: pointer;
-    filter: invert(2);
-    max-width: 32px;
 }
 
 /*--------------------------------------------------------------------------------
@@ -857,15 +752,6 @@ letter-spacing: 1px;
     filter: invert(2);
     max-width: 35px;
 }
-.close  
-{
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    cursor: pointer;
-    filter: invert(2);
-    max-width: 32px;
-}
 
 /*--------------------------------------------------------------------------------
 /* poster containter attackers */
@@ -904,16 +790,6 @@ letter-spacing: 1px;
     filter: invert(2);
     max-width: 35px;
 }
-.close  
-{
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    cursor: pointer;
-    filter: invert(2);
-    max-width: 32px;
-}
-
 
 /*--------------------------------------------------------------------------------
 /* poster containter errors and negligence */
@@ -952,16 +828,6 @@ letter-spacing: 1px;
     filter: invert(2);
     max-width: 35px;
 }
-.close  
-{
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    cursor: pointer;
-    filter: invert(2);
-    max-width: 32px;
-}
-
 
 /*--------------------------------------------------------------------------------
 /* poster containter malwares */
@@ -1000,16 +866,6 @@ letter-spacing: 1px;
     filter: invert(2);
     max-width: 35px;
 }
-.close  
-{
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    cursor: pointer;
-    filter: invert(2);
-    max-width: 32px;
-}
-
 
 /*--------------------------------------------------------------------------------
 /* poster containter force majeure */
@@ -1047,15 +903,6 @@ letter-spacing: 1px;
     left: 250px;
     filter: invert(2);
     max-width: 35px;
-}
-.close  
-{
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    cursor: pointer;
-    filter: invert(2);
-    max-width: 32px;
 }
 
 /*--------------------------------------------------------------------------------
@@ -1095,17 +942,6 @@ letter-spacing: 1px;
     filter: invert(2);
     max-width: 35px;
 }
-.close  
-{
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    cursor: pointer;
-    filter: invert(2);
-    max-width: 32px;
-}
-
-
 
 /*--------------------------------------------------------------------------------
 /* poster containter fraud and theft */
@@ -1143,15 +979,6 @@ letter-spacing: 1px;
     left: 250px;
     filter: invert(2);
     max-width: 35px;
-}
-.close  
-{
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    cursor: pointer;
-    filter: invert(2);
-    max-width: 32px;
 }
 
 /*-------------------------- ABOUT US PAGE ---------------------------- */
