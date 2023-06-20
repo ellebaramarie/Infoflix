@@ -6,6 +6,8 @@
              nav.classList.remove('nav__black');
         }
      })  
+
+  
   /* ------------------------ M A L W A R E S -------------------------- */
 
      function toggleVideo()
@@ -23,6 +25,7 @@
       spyware.classList.toggle('active');
       video.currentTime = 0;
       video.pause();
+      
     }
     function toggleTrojans()
     {
@@ -31,6 +34,13 @@
       trojans.classList.toggle('active');
       video.currentTime = 0;
       video.pause();
+
+      var this_video = document.getElementById(this_video_trojans);
+      if (this_video.pause) {
+        console.log("VIDEO IS PAUSED");
+      } else {
+        console.log("VIDEO IS PLAYING");
+      }
     }
     function toggleRansomware()
     {
